@@ -1,0 +1,8 @@
+<html><head><title>Fishing</title>
+</head>
+<body> bgcolor="#99ff66" text="#003300">
+</body></html>
+
+<a href="supplies.htm" onMouseOver="changestatus
+('Fishing Supplies');return true";>
+Fishing Supplie</a><br>
