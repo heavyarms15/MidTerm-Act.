@@ -5,4 +5,29 @@
 
 <a href="supplies.htm" onMouseOver="changestatus
 ('Fishing Supplies');return true";>
-Fishing Supplie</a><br>
+Fishing Supplies</a><br>
+<a href="Rent.htm" onMouseOver="changestatus
+('We rent supplies daily!');return true";>
+Rent Fishing Equipment</a><br>
+<a href="location.htm" onMouseOver="changestatus
+('Maps to nearby Lakes!');return true";>
+Fishing location </a><br>
+<a href="talest.htm" onMouseOver="changestatus
+('share your fishing tales!');return true";>
+Fishing tales</a><br>
+<a href="links.htm" onMouseOver="changestatus
+('Links to other fish sites!');return true";>
+Fishing links</a><br>
+<a href="fish.htm" onMouseOver="changestatus
+('Fish Dictionary!');return true";>
+Fish Description</a><br>
+<a href="fish.htm" onMouseOver="changestatus
+(' ');return true";>
+fish store</a><br>
+
+<script language="javascript">
+window.defaultStatus="welcome to fish cove!";
+function changeStatus(statusMessage){
+window.status=statusMessage;
+}
+</script>
