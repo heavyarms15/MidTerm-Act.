@@ -1,0 +1,32 @@
+<html><head><title>Checkout</title>
+</head>
+<body bgcolor="#99FF66" text="#003300">
+<h2>Checkout</h2>
+
+<form name="from" action"javascript:void(0);">
+<input type="text" name="txtP" size="7">
+Price <br><br>
+<input type="text" name="txtP" size="7">
+Total Cost <br><br>
+<input type="button" value="calculate my total"
+name="btnSubmit" onClick="calcVB()">
+</form></body></html>
+
+<script language="javascript">
+function calcVB()
+call getcost()
+call showcost()
+end function 
+
+sub getcost()
+dim quantity. price. total
+price =document.form.txtP.value
+quantity =document.form.txtQ.value
+total=price*quantity
+document.form.txtT.value=total
+end sub
+
+sub showcost()
+dim cost cost=document.form.txtT.value
+window.alert("your total cart is " & _ chr(10)&cost)
+end sub
